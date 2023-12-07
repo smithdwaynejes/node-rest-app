@@ -1,0 +1,25 @@
+{
+  "name": "rest-app",
+  "version": "1.0.0",
+  "description": "sample app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithdwaynejes/node-rest-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smithdwaynejes/node-rest-app/issues"
+  },
+  "homepage": "https://github.com/smithdwaynejes/node-rest-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
