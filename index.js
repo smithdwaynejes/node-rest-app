@@ -6,6 +6,10 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+  res.status(200).json({message: 'I am in'});
+});
+
 app.post('/verify-email', (req, res) => {
   const { email } = req.body;
 
